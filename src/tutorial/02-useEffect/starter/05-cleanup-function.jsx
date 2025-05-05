@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 const CleanupFunction = () => {
   const [value, setValue] = useState(false);
-  console.log("render");
 
   const toggle = () => {
     setValue(!value);

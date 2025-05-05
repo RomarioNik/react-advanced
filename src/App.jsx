@@ -17,12 +17,37 @@ import CondRenderShortCircuitToggle from "./tutorial/03-conditional-rendering/st
 import CondRenderShortCircuitUser from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
 import ProjectStructure from "./tutorial/04-project-structure/starter/EntryPoint";
 import LeverageJavaScript from "./tutorial/05-leverage-javascript/starter/LeverageJavaScript";
+import FormsControlledInput from "./tutorial/06-forms/starter/01-controlled-inputs";
+import FormsUserChallenge from "./tutorial/06-forms/starter/02-user-challenge";
+import FormsMultipleInputs from "./tutorial/06-forms/starter/03-multiple-inputs";
+import FormsOtherInputs from "./tutorial/06-forms/starter/04-other-inputs";
+import FormsFormData from "./tutorial/06-forms/starter/05-form-data";
 import { Line } from "./Line";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
+      <Line />
+      <h4 style={{ color: "orange" }}>Forms Form Data</h4>
+      <FormsFormData />
+
+      {/* <Line />
+      <h4 style={{ color: "orange" }}>Forms Other Inputs</h4>
+      <FormsOtherInputs /> */}
+
+      {/* <Line />
+      <h4 style={{ color: "orange" }}>Forms Multiple Inputs</h4>
+      <FormsMultipleInputs /> */}
+
+      {/* <Line />
+      <h4 style={{ color: "orange" }}>Forms User Challenge</h4>
+      <FormsUserChallenge /> */}
+
+      {/* <Line />
+      <h4 style={{ color: "orange" }}>Forms Controlled Input</h4>
+      <FormsControlledInput /> */}
+
       <Line />
       <h4 style={{ color: "orange" }}>Leverage JavaScript</h4>
       <LeverageJavaScript />
