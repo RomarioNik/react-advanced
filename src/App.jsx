@@ -22,6 +22,7 @@ import FormsUserChallenge from "./tutorial/06-forms/starter/02-user-challenge";
 import FormsMultipleInputs from "./tutorial/06-forms/starter/03-multiple-inputs";
 import FormsOtherInputs from "./tutorial/06-forms/starter/04-other-inputs";
 import FormsFormData from "./tutorial/06-forms/starter/05-form-data";
+import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics";
 import { Line } from "./Line";
 
 function App() {
@@ -29,8 +30,12 @@ function App() {
     <div className="container">
       <h2>Advanced React</h2>
       <Line />
+      <h4 style={{ color: "orange" }}>UseRef Basics</h4>
+      <UseRefBasics />
+
+      {/* <Line />
       <h4 style={{ color: "orange" }}>Forms Form Data</h4>
-      <FormsFormData />
+      <FormsFormData /> */}
 
       {/* <Line />
       <h4 style={{ color: "orange" }}>Forms Other Inputs</h4>
