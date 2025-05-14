@@ -27,12 +27,17 @@ import CustomHooks from "./tutorial/08-custom-hooks/starter/01-toggle";
 import CustomHooksFetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data";
 import PropDrilling from "./tutorial/09-context-api/starter/prop-drilling/Navbar";
 import ContextAPI from "./tutorial/09-context-api/starter/context/Navbar";
+import UseReducer from "./tutorial/10-useReducer/starter/01-useReducer";
 import { Line } from "./Line";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
+      <Line />
+      <h4 style={{ color: "orange" }}>useReducer</h4>
+      <UseReducer />
+
       <Line />
       <h4 style={{ color: "orange" }}>Context API</h4>
       <PropDrilling />
