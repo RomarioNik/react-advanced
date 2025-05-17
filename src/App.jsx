@@ -28,12 +28,32 @@ import CustomHooksFetchData from "./tutorial/08-custom-hooks/starter/02-fetch-da
 import PropDrilling from "./tutorial/09-context-api/starter/prop-drilling/Navbar";
 import ContextAPI from "./tutorial/09-context-api/starter/context/Navbar";
 import UseReducer from "./tutorial/10-useReducer/starter/01-useReducer";
+import PerformanceLowerState from "./tutorial/11-performance/starter/01-lower-state/index";
+import PerformanceLowerStateChallenge from "./tutorial/11-performance/starter/02-lower-state-challenge/index";
+import PerformanceLowerStateHooks from "./tutorial/11-performance/starter/03-hooks/index";
+import PerformanceLowerUseTransition from "./tutorial/11-performance/starter/04-react-18/index";
 import { Line } from "./Line";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
+      <Line />
+      <h4 style={{ color: "orange" }}>Performance Use Transition</h4>
+      <PerformanceLowerUseTransition />
+
+      <Line />
+      <h4 style={{ color: "orange" }}>Performance Lower State Hooks</h4>
+      <PerformanceLowerStateHooks />
+
+      <Line />
+      <h4 style={{ color: "orange" }}>Performance Lower State Challenge</h4>
+      <PerformanceLowerStateChallenge />
+
+      <Line />
+      <h4 style={{ color: "orange" }}>Performance Lower State</h4>
+      <PerformanceLowerState />
+
       <Line />
       <h4 style={{ color: "orange" }}>useReducer</h4>
       <UseReducer />
